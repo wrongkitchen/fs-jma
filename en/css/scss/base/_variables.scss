@@ -1,0 +1,14 @@
+/**
+*   Author Variables
+*/
+
+$tabletMaxWidth: 980px;
+$mobileMaxWidth: 640px;
+
+.animation{
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}

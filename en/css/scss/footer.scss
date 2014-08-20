@@ -1,0 +1,65 @@
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_global';
+@import 'base/_ie8';
+@import 'base/_reset';
+
+#footer{background:#373a40;padding:40px 0;color:#CCC;font-weight:bold;font-family:'futura_std';font-size:16px;}
+#footer a{color:#CCC;}
+
+.sitemap{margin-bottom:40px;}
+
+.sitemap ol,.sitemap ul{ list-style:none;margin:0;padding:0;}
+.sitemap ol:after,.sitemap ul:after{ content:'';display:block;clear:both;}
+.sitemap h4{padding-bottom:5px;margin-bottom:5px;border-bottom:1px solid #777;font-weight:normal;font-size:0.9em;color:#FFF;}
+#footer .sitemap h4 a{color:#FFF;}
+
+.sitemap ol li{float:left;width:21%;margin-right:3%;}
+.sitemap ol li ul li{float:none;width:90%;font-size:0.8em;margin-bottom:10px;}
+
+.share{ 
+	position:relative; text-align:center;margin-bottom: 40px;
+	ul{
+		list-style:none; margin:0; padding:0;
+		li{
+			display:inline-block;width:27px;
+			img{width:100%;}
+		}
+	}
+	@include respond-to(tablet){
+		top:auto;
+		ul {
+			text-align:center;
+			li{float:none;margin-right:5px; display:inline-block;}
+		}
+	}
+}
+
+.sponsor{
+	margin-bottom:40px;
+	ul{
+		list-style:none;margin:0;padding:0;text-align: center;
+		&:after{content:'';display:block;clear:both;}
+		li{
+			margin-right:20px;display:inline-block;
+			img{ max-width:128px; }
+		}
+	}
+	@include respond-to(tablet){
+		margin-top:20px;
+		ul{ 
+			text-align:center;
+			li{float:none;margin-right:5px; display:inline-block;}
+		}
+	}
+}
+
+.contact-detail{ 
+	margin-top:20px;text-align: center;
+	p{ 
+		font-size:0.8em; 
+		@include respond-to(tablet){
+			text-align:center;
+		}
+	}
+}

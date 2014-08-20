@@ -1,0 +1,39 @@
+/**
+*   Author Custom Mixins
+*/
+
+@mixin clearfix() {
+    zoom: 1;
+    &:before {
+        content: '';
+        display: block;
+    }
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin respond-to($media) {
+    @if $media == mobile {
+        @media screen and (max-width: $mobileMaxWidth) { 
+            @content; 
+        }
+    }
+    @else if $media == tablet {
+        @media screen and (min-width: $mobileMaxWidth + 1) and (max-width: $tabletMaxWidth - 1) { 
+            @content; 
+        }
+    }
+    @else if $media == mix {
+        @media screen and (max-width: $tabletMaxWidth - 1) { 
+            @content; 
+        }
+    }
+    @else {
+        @media screen and (max-width: $media) { 
+            @content; 
+        }
+    }
+}
