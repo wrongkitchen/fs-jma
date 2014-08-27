@@ -47,8 +47,8 @@
         
         <div class="contact-detail">
             <p class="desktop">Unit G, 2/F Kaiser Estate Phase 2, 51 Man Yue Street,Hunghom, Kowloon, Hong Kong SAR, China.</p>
-            <p>Tel: (852) 2766-3002 <span class="sep">|</span>Fax: (852) 2362-3647  <span class="sep">|</span>-mail: <a href="mailto:enquiry@jewelry.org.hk">enquiry@jewelry.org.hk</a></p><br />
-            <p><a href="#">Disclaimer</a>  <<span class="sep">|</span> href="#">Privacy Statement</a>   C<span class="sep">|</span>pyright © 2014 Hong Kong Jewelry Manufacturers' Association.  All right reserved    Si<span class="sep">|</span>e by FirmStudio</p>
+            <p>Tel: (852) 2766-3002 <span class="sep">|</span>Fax: (852) 2362-3647  <span class="sep">|</span> e-mail: <a href="mailto:enquiry@jewelry.org.hk">enquiry@jewelry.org.hk</a></p><br />
+            <p><a href="#">Disclaimer</a>  <span class="sep">|</span> <a href="#">Privacy Statement</a>   <span class="sep">|</span>Copyright © 2014 Hong Kong Jewelry Manufacturers' Association.  All right reserved   <span class="sep">|</span>Site by FirmStudio</p>
         </div>
         
 	</div>
