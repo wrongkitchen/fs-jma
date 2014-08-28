@@ -267,18 +267,23 @@ body {
 #wrapper .inner-page .association-items .staff p{margin-top:5px;}
 #wrapper .inner-page .association-items .staff p a{display:block;color:#35c4cb;}
 
+#wrapper .inner-page .year-selector{margin-bottom:45px;}
+
 #wrapper .inner-page .odd-line{background:#FFF;text-align:center;}
 #wrapper .inner-page .even-line{background:#EDEDED;text-align:center;}
 #wrapper .inner-page .this-year{background:#033454;text-align:center;}
 
 #wrapper .inner-page .this-year.chairman-holder{color:#FFF;}
 
-#wrapper .inner-page .chairman-holder{padding-top:30px; padding-bottom:30px}
+#wrapper .inner-page .chairman-holder{padding-top:30px; padding-bottom:30px; text-align:center;}
+#wrapper .inner-page .chairman-holder.last{margin-bottom: -120px;padding-bottom: 120px;}
+
 #wrapper .inner-page .chairman-holder h3 span{font-size:0.9em;display:block;}
-#wrapper .inner-page .chairman-holder .chairman-item{display:inline-block;width:24%;margin-left:1%; vertical-align:top;}
+#wrapper .inner-page .chairman-holder .chairman-item{display:inline-block;width:22%;margin-right:4%; vertical-align:top;}
+#wrapper .inner-page .chairman-holder .chairman-item:last-child{margin-right:0;}
 #wrapper .inner-page .chairman-holder .chairman-item img{width:100%;}
-#wrapper .inner-page .chairman-holder .chairman-item p{margin-top:10px; line-height:1.5em;}
-#wrapper .inner-page .chairman-holder .chairman-item p span{font-size:0.9em;font-weight:bold;display:block;}
+#wrapper .inner-page .chairman-holder .chairman-item p{margin-top:10px; line-height:1.5em;font-size:18px;}
+#wrapper .inner-page .chairman-holder .chairman-item p span{font-size:14px;font-weight:bold;display:block;}
 
 #wrapper .inner-page .sub-committee{background:#033454;padding-top:30px; padding-bottom:30px;}
 #wrapper .inner-page .sub-committee .director-holder{margin-bottom: 30px;}
