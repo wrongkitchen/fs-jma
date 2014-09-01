@@ -10,6 +10,7 @@ $(document).ready(function(){
 	jam_event_init();
 	productListItem_init();
 	eventListItem_init();
+	selectboxChange();
 	
 	$(".event-items img").load(function(){
 		eventHeight_init();
@@ -562,6 +563,16 @@ $(document).ready(function(){
 		$(this).find(".product-details").delay(500).hide(100);						   						   
 	});
 
+	$(".year-selector select").change(function(){
+		$("body").scrollTo("#"+$(this).attr("value"),1000)	
+	})
+	$(".select-style select").change(function(){  
+		selectboxChange();
+	})
+	function selectboxChange(){
+		$(".select-style>p").text($(this +":selected").text())	;
+	}
+	
 	/*click function*/
 	
 	/*resize function*/

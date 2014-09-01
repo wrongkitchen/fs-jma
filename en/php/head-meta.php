@@ -40,6 +40,8 @@
 <script type="text/javascript" src="../js/banner.js"></script>
 <script type="text/javascript" src="../js/photoslide.js"></script>
 <script type="text/javascript" src="../js/jquery.platformselector.js"></script>
+<script type="text/javascript" src="../js/jquery.scrollTo.min.js"></script>
+
 <!-- Include the HTML5 shiv and shiv print polyfills for Internet Explorer browsers 8 and below -->
 <!--[if lt IE 9]>
 <script src="../js/html5shiv.js" media="all"></script>

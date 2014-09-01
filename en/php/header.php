@@ -48,7 +48,7 @@
                 <li><a href="our-member.php">Our Members</a></li>
                 <li><a href="javascript:void(0)">Exhibition</a><img src="../images/arrow_big.png" /><img src="../images/more-arrow-white.png" class="tablet mob"/></li>
                 <li><a href="javascript:void(0)">Publication</a><img src="../images/arrow_big.png" /><img src="../images/more-arrow-white.png" class="tablet mob"/></li>
-                <li><a href="javascript:void(0)">Education</a></li>
+                <li><a href="education.php">Education</a></li>
                 <li><a href="javascript:void(0)">China Affairs</a></li>
                 <li class="member-zone"><a href="javascript:void(0)">MEMBER ZONE</a></li>
             </ul>
@@ -79,9 +79,9 @@
                     <h4>Introduction<span class="ie_8_line"></span></h4>    
                     <ul>
                         <li><a href="aims-and-mission-of-the-association.php">Aims & Mission of The Association</a></li>
-                        <li>Structure of The Association</li>
-                        <li>Staff of The Association</li>
-                        <li>List of Chairmen</li>
+                        <li><a href="structure-of-the-association.php">Structure of The Association</a></li>
+                        <li><a href="staff-of-the-association.php">Staff of The Association</a></li>
+                        <li><a href="list-of-chairmen.php">List of Chairmen</a></li>
                         <li>General Committee Members</li>
                         <li>Executive Committee Members</li>
                         <li>Chairman Annual Report 2013-2014</li>

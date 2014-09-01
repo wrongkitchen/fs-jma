@@ -1001,55 +1001,83 @@ body {
   display: block;
   color: #35c4cb; }
 
-#wrapper .inner-page .year-selector {
+#wrapper .inner-page .chairman-list .year-selector {
   margin-bottom: 45px; }
 
-#wrapper .inner-page .odd-line {
+#wrapper .inner-page .chairman-list .year-selector select {
+  width: 200px;
+  font-size: 12px;
+  border: none;
+  position: relative;
+  height: 23px;
+  margin-top: 1px;
+  margin-left: 1px;
+  opacity: 0; }
+
+#wrapper .inner-page .chairman-list .year-selector select option {
+  padding: 3px 0; }
+
+#wrapper .inner-page .chairman-list .select-style {
+  position: relative; }
+
+#wrapper .inner-page .chairman-list .select-style p {
+  background: url(../../images/select-arrow.png) right top no-repeat;
+  width: 190px;
+  height: 19px;
+  padding-top: 4px;
+  padding-left: 10px;
+  border: 1px solid #cccccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'futura_std'; }
+
+#wrapper .inner-page .chairman-list .odd-line {
   background: #FFF;
   text-align: center; }
 
-#wrapper .inner-page .even-line {
+#wrapper .inner-page .chairman-list .even-line {
   background: #EDEDED;
   text-align: center; }
 
-#wrapper .inner-page .this-year {
+#wrapper .inner-page .chairman-list .this-year {
   background: #033454;
   text-align: center; }
 
-#wrapper .inner-page .this-year.chairman-holder {
+#wrapper .inner-page .chairman-list .this-year.chairman-holder {
   color: #FFF; }
 
-#wrapper .inner-page .chairman-holder {
+#wrapper .inner-page .chairman-list .chairman-holder {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center; }
 
-#wrapper .inner-page .chairman-holder.last {
+#wrapper .inner-page .chairman-list .chairman-holder.last {
   margin-bottom: -120px;
   padding-bottom: 120px; }
 
-#wrapper .inner-page .chairman-holder h3 span {
+#wrapper .inner-page .chairman-list .chairman-holder h3 span {
   font-size: 0.9em;
   display: block; }
 
-#wrapper .inner-page .chairman-holder .chairman-item {
+#wrapper .inner-page .chairman-list .chairman-holder .chairman-item {
   display: inline-block;
   width: 22%;
   margin-right: 4%;
   vertical-align: top; }
 
-#wrapper .inner-page .chairman-holder .chairman-item:last-child {
+#wrapper .inner-page .chairman-list .chairman-holder .chairman-item:last-child {
   margin-right: 0; }
 
-#wrapper .inner-page .chairman-holder .chairman-item img {
+#wrapper .inner-page .chairman-list .chairman-holder .chairman-item img {
   width: 100%; }
 
-#wrapper .inner-page .chairman-holder .chairman-item p {
+#wrapper .inner-page .chairman-list .chairman-holder .chairman-item p {
   margin-top: 10px;
   line-height: 1.5em;
   font-size: 18px; }
 
-#wrapper .inner-page .chairman-holder .chairman-item p span {
+#wrapper .inner-page .chairman-list .chairman-holder .chairman-item p span {
   font-size: 14px;
   font-weight: bold;
   display: block; }
@@ -3221,6 +3249,14 @@ body {
 
   #wrapper .inner-page .sub-committee .director-holder div {
     margin-left: 0px; }
+
+  #wrapper .inner-page .chairman-list .chairman-holder .chairman-item {
+    width: 46%;
+    margin: 0 2%;
+    vertical-align: top; }
+
+  #wrapper .inner-page .chairman-list .chairman-holder .chairman-item:last-child {
+    margin: 0 2%; }
 
   #wrapper .inner-page .exhibition-programs table td.delegation-since {
     width: 91%;
