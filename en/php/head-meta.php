@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="css/content.css" type="text/css" />
 <link rel="stylesheet" href="css/footer.css" type="text/css" />
 
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 
 <script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
@@ -47,4 +47,5 @@
 <script src="../js/html5shiv.js" media="all"></script>
 <script src="../js/html5shiv-printshiv.js" media="print"></script>
 <script src="../js/respond.min.js"></script>
+<script src="../js/selectivizr.js"></script>
 <![endif]-->

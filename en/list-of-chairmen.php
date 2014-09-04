@@ -124,19 +124,19 @@
                     </div><!--
                     --><div class="chairman-item">
                         <img src="../images/about-us/list-of-chairman/2009-2011/Benny_Do.jpg" />
-                        <p>Mr. Benny_Do
+                        <p>Mr. Benny Do
                         <span>Associate Chairman</span>
                         </p>
                     </div><!--
                     --><div class="chairman-item">
                         <img src="../images/about-us/list-of-chairman/2009-2011/Ricky_Lam.jpg" />
-                        <p>Mr. Ricky_Lam
+                        <p>Mr. Ricky Lam
                         <span>Associate Chairman</span>
                         </p>
                     </div><!--
                     --><div class="chairman-item">
                         <img src="../images/about-us/list-of-chairman/2009-2011/Adam_Lau.jpg" />
-                        <p>Dr. Adam_Lau
+                        <p>Dr. Adam Lau
                         <span>Associate Chairman</span>
                         </p>
                     </div>

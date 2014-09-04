@@ -19,14 +19,14 @@
     	<div class="holder">
         	<div class="breadcrumb">
             	<span class="pass">Home</span>
-                <span class="now">Our Members</span>
+                <span class="now">Membership</span>
             </div>
 
-            <h2 class="desktop">member listing</h2>
+            <h2 class="desktop">member list</h2>
 
             <div class="member-listing">
                 <div class="listing-holder">
-                    <h2 class="mob tablet">member listing</h2>
+                    <h2 class="mob tablet">member list</h2>
                     <div class="member-selector">
                         <div class="search-bar"><img src="../images/mobile/btn-search-m.png" class="mob tablet"/><input type="text"></div>
                         <div class="selector byproduct selected">By Product <span></span>Category</div><div class="selector byalpha">By Alphabetical <span></span>Order</div><div class="search-icon"><img src="../images/mobile/btn-search-m.png" /></div>
@@ -121,7 +121,7 @@
                 </div>
                 
                 <div class="join-membership">
-                    <h3>Join Membership</h3>
+                    <h3>How to Join</h3>
                     <ul class="join-member-list">
                         <li>Application form</li><li>Membership Application Guidelines</li><li>Member's Benefits</li>
                     </ul>
