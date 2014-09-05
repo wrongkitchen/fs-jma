@@ -85,7 +85,7 @@
                         <li>General Committee Members</li>
                         <li><a href="executive-committee-members.php">Executive Committee Members</a></li>
                         <li>Chairman Annual Report 2013-2014</li>
-                        <li>Important Affairs and History of HKJMA</li>
+                        <li><a href="affairs-and-history.php">Important Affairs and History of HKJMA</a></li>
                     </ul>
                 </li>
                 <li>
