@@ -250,7 +250,7 @@ body {
 /******************* Introduction *******************/
 #wrapper .inner-page .aim-ol{counter-reset: listItem;}
 #wrapper .inner-page .aim-ol:after{content:'';display:block;clear:both;}
-#wrapper .inner-page .aim-ol .orderlist-style{counter-reset: none; width:45%;margin-right:5%;float:left;}
+#wrapper .inner-page .aim-ol .orderlist-style{counter-reset:number; width:45%;margin-right:5%;float:left;}
 
 #wrapper .inner-page .general-meeting{padding-top:30px; padding-bottom:30px;background:#f4efe4;}
 #wrapper .inner-page .general-meeting img{display:block;margin:0 auto;}
@@ -783,6 +783,11 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+	#wrapper .inner-page .history .year-container .history-item .event-type{margin-bottom:10px;}
+	#wrapper .inner-page .history .year-container .history-item .history-content{width:80%;}
+}
+
 @media screen and (max-width: 640px) {
 	.tester{background:#F00;}
 	
@@ -888,6 +893,8 @@ body {
 	#wrapper .inner-page .exhibition-programs table td.no-of-exhibitors{width:91%;padding:0% 3%;padding-bottom:3%;position:relative;padding-left:6%;}
 	#wrapper .inner-page .exhibition-programs table td.no-of-exhibitors:before{content:'Year 2012 / 13 No of HK Exhibitors  :';display:block; width:100%; position:relative; left:-3%;}
 	#wrapper .inner-page .exhibition-programs .img-holder img{display:inline-block;width:100%;margin:0;margin-bottom:3%;}
+	
+	#wrapper .inner-page .history .year-container .history-item .history-content{width:100%;}
 	
 	#wrapper .inner-page .JMA-event-highlight .event-selector{position:static;margin-bottom:5%}
 	#wrapper .inner-page .JMA-event-highlight .event-selector div{display:inline-block;margin-left:0px;margin-right:2%;} 

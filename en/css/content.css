@@ -939,7 +939,7 @@ body {
   clear: both; }
 
 #wrapper .inner-page .aim-ol .orderlist-style {
-  counter-reset: none;
+  counter-reset: number;
   width: 45%;
   margin-right: 5%;
   float: left; }
@@ -3069,6 +3069,12 @@ body {
     position: relative;
     top: auto;
     right: auto; } }
+@media screen and (max-width: 768px) {
+  #wrapper .inner-page .history .year-container .history-item .event-type {
+    margin-bottom: 10px; }
+
+  #wrapper .inner-page .history .year-container .history-item .history-content {
+    width: 80%; } }
 @media screen and (max-width: 640px) {
   .tester {
     background: #F00; }
@@ -3456,6 +3462,9 @@ body {
     width: 100%;
     margin: 0;
     margin-bottom: 3%; }
+
+  #wrapper .inner-page .history .year-container .history-item .history-content {
+    width: 100%; }
 
   #wrapper .inner-page .JMA-event-highlight .event-selector {
     position: static;

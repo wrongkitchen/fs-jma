@@ -7,6 +7,7 @@ $(document).ready(function(){
 	w = $(window).width();
 
 	/* init function */
+	navbarReset()
 	jam_event_init();
 	productListItem_init();
 	eventListItem_init();
@@ -55,6 +56,7 @@ $(document).ready(function(){
 			$(".navbar-container").slideUp(500);
 			$(this).find("img").attr("src" , "../images/mobile/btn-navbar.png");
 			$(this).removeClass("opened");
+			li_lv2Leave();
 		}else
 		{						
 			$(".navbar-container").slideDown(500);
@@ -566,6 +568,10 @@ $(document).ready(function(){
 	$(".year-selector select").change(function(){
 		$("body").scrollTo("#"+$(this).attr("value"),1000)	
 	})
+	$(".history-selector select").change(function(){
+		$("body").scrollTo("#"+$(this).attr("value"),1000)	
+	})
+	
 	$(".select-style select").change(function(){  
 		selectboxChange();
 	})
@@ -620,10 +626,23 @@ $(document).ready(function(){
 		if(w > 980)
 		{
 			$(".navbar-container").show();
+			$("#menu li").unbind("mouseenter",liEnter).bind("mouseenter",liEnter);
+			$(".menu-lv2-holder").unbind("mouseenter",lv2Enter).bind("mouseenter",lv2Enter);
+			$('#menu li, .menu-lv2-holder').unbind("mouseleave",li_lv2Leave).bind("mouseleave",li_lv2Leave);
+			$("#menu li").unbind("click",liEnter);
+			$("#menu li").removeClass("selected");
+			$(".menu-lv2-holder,.menu-lv2,.menu-lv2-holder .btn-back").removeAttr("style");
+			$(".menu-lv2").removeClass("open");
 		}else
 		{
 			$(".btn-navbar").find("img").attr("src" , "../images/mobile/btn-navbar.png");
 			$(".navbar-container").hide();
+			$("#menu li").unbind("mouseenter",liEnter);
+			$(".menu-lv2-holder").unbind("mouseenter",lv2Enter);
+			$('#menu li, .menu-lv2-holder').unbind("mouseleave",li_lv2Leave);
+			$("#menu li").unbind("click",liEnter).bind("click",liEnter);
+			$(".menu-lv2-holder .btn-back").unbind("click",li_lv2Leave).bind("click",li_lv2Leave);
+			li_lv2Leave();
 		}
 	}
 	function memberListingReset(){
@@ -654,7 +673,7 @@ $(document).ready(function(){
 	var idx;
 	
 
-	$("#menu li").mouseenter(function () {
+/*	$("#menu li").mouseenter(function () {
 		idx = $(this).index();
 		$(this).addClass('selected').siblings().removeClass('selected');
 		$(".menu-lv2-holder").stop().delay(200).addClass("open").siblings().removeClass("open");
@@ -677,7 +696,55 @@ $(document).ready(function(){
 		$(".menu-lv2").removeClass("open");
 		$(".menu-lv2-holder").stop().animate({ height: 0 });
 		$("#menu li").removeClass('selected');
-	});
+	});*/
+
+	function liEnter(){
+		idx = $(this).index();
+		$(this).addClass('selected').siblings().removeClass('selected');
+		$(".menu-lv2-holder").stop().delay(200).addClass("open").siblings().removeClass("open");
+		$(".menu-lv2").eq(idx).addClass("open").siblings().removeClass("open");
+		hei = $(".menu-lv2").eq(idx).outerHeight(true);
+		if(idx == 1 || idx == 4 || idx == 5 || idx == 6){
+			hei = 0;
+		}
+		if(w < 980){
+			if(idx == 1 || idx == 4 || idx == 5 || idx == 6){
+				$(".menu-lv2-holder .btn-back").hide();
+				$(".menu-lv2").removeClass("open")
+				return false;
+			}else
+			{
+				$(".menu-lv2-holder .btn-back").show();
+				$(".menu-lv2").eq(idx).height("auto");
+				var menu_h = $(".menu-lv2").eq(idx).height();
+				var lv2_hei = $("#menu").height() + $(".ext-links.mob.tablet").height() +$(".lang.mob.tablet").height();
+				
+				if(menu_h < lv2_hei)
+				{
+					$(".menu-lv2").height(lv2_hei);
+				}
+			}
+		}else{
+			$(".menu-lv2-holder .btn-back").hide();
+		}
+		
+		$(".menu-lv2-holder").stop().animate({ height: hei + "px" });
+	}
+	function lv2Enter(){
+		$("#menu li").eq(idx).addClass('selected').siblings().removeClass('selected');
+		$(".menu-lv2-holder").eq(idx).stop().delay(200).addClass("open").siblings().removeClass("open");
+		$(".menu-lv2").eq(idx).addClass("open").siblings().removeClass("open");
+		hei = $(".menu-lv2").eq(idx).outerHeight(true);
+		$(".menu-lv2-holder").stop().animate({ height: hei + "px" });
+	}
+	function li_lv2Leave(){
+		$(".menu-lv2-holder").stop().delay(200).removeClass("open");
+		$(".menu-lv2").removeClass("open");
+		$(".menu-lv2-holder").stop().animate({ height: 0 });
+		$("#menu li").removeClass('selected');
+		$(".menu-lv2-holder .btn-back").hide();
+	}
+	
 	/* navbar */
 
 	

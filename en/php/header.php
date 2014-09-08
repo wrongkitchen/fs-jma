@@ -74,9 +74,10 @@
     </div>
     <div class="menu-lv2-holder">
         <div class="holder">
+        	<div class="btn-back"><img src="../images/mobile/nav-btn-back.png" /><span>Back</span></div>
             <ul class="menu-lv2" id="about-HKJMA">
                 <li>
-                    <h4>Introduction<span class="ie_8_line"></span></h4>    
+                    <h4>Introduction<span class="ie_8_line"></span><img src="../images/mobile/subnav-open.png" /></h4>    
                     <ul>
                         <li><a href="aims-and-mission-of-the-association.php">Aims & Mission of The Association</a></li>
                         <li><a href="structure-of-the-association.php">Structure of The Association</a></li>
@@ -89,7 +90,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h4>Our Service & Activities<span class="ie_8_line"></span></h4>
+                    <h4>Our Service & Activities<span class="ie_8_line"></span><img src="../images/mobile/subnav-open.png" /></h4>
                     <ul>
                         <li>Brand & Publication Sub-Committee</li>
                         <li>China Affair Sub-Committee</li>

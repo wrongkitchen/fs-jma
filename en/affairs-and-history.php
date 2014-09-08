@@ -33,14 +33,37 @@
                 <div class="history-selector select-style">
                 	<p></p>
                 	<select>
-                    	<option>YEAR</option>
-                        <option>1998</option>
-                        <option>1999</option>
-                        <option>1999</option>
+                    	<option value="0">Please Select Year</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
                     </select>
                 </div>
 
-                <div class="year-container">
+                <div class="year-container" id="2013">
                 	<h4 class="year">2013</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>2013</p></div>
@@ -49,7 +72,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2012">
                 	<h4 class="year">2012</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>JUN</p></div>
@@ -60,7 +83,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2011">
                 	<h4 class="year">2011</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>NOV</p></div>
@@ -71,7 +94,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2010">
                 	<h4 class="year">2010</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>DEC</p></div>
@@ -81,7 +104,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2009">
                 	<h4 class="year">2009</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>DEC</p></div>
@@ -92,7 +115,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2008">
                 	<h4 class="year">2008</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>MAR</p></div>
@@ -108,7 +131,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2007">
                 	<h4 class="year">2007</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>2007</p></div>
@@ -118,7 +141,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2006">
                 	<h4 class="year">2006</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>2006</p></div>
@@ -153,7 +176,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2005">
                 	<h4 class="year">2005</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>MAR</p></div>
@@ -189,7 +212,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2004">
                 	<h4 class="year">2004</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>2004</p></div>
@@ -244,7 +267,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2003">
                 	<h4 class="year">2003</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>JAN</p></div>
@@ -304,7 +327,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2002">
                 	<h4 class="year">2002</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>JAN</p></div>
@@ -351,7 +374,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2001">
                 	<h4 class="year">2001</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>MAR</p></div>
@@ -393,7 +416,7 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="2000">
                 	<h4 class="year">2000</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>JAN</p></div>
@@ -461,7 +484,7 @@
                     </div> 
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1999">
                 	<h4 class="year">1999</h4>
                     <div class="history-item">
                     	<div class="event-type JMA"><p>JAN</p></div>
@@ -523,112 +546,361 @@
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1998">
                 	<h4 class="year">1998</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>JAN</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>Start providing the gold/platinum assay service, which met the international ISO9000 quality management standard.</p>
+                        <p>HKJMA was appointed to be the Hong Kong & China official agent for JCK publications.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>It was the first time the HKJMA Pavilion was organized at the International Jewellery London (IJL).</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>NOV</p></div>
+                        <div class="history-content">
+                        <p>Became the Hong Kong representative of Germany's Creditoren-Verein Pforzheim, HKJMA may get update worldwide jeweler's credit information in order to assist members to minimize their business risks</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The 6th Hong Kong Jewelry Manufacturers' Exhibition was held at the Hong Kong Convention & Exhibition Centre. More than 9,000 visitors ware registered at the show.</p>
+                        <p>'The 1st Buyers' Favorite Diamond Jewelry Design Competition' was organized. It aimed at encouraging local diamond jewelry designs and arouses the interests of world wide buyers in Hong Kong jewelry industry.</p>
+                        <p>The number of members increased to 197 at the year end.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1997">
                 	<h4 class="year">1997</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>MAR</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>The Opening Ceremony of the Hong Kong Jewelry Industry Technology Centre was held.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAY</p></div>
+                        <div class="history-content">
+                        <p>'Express Carnet Guarantee Service' was newly launched by the Association. This service required much less time, money and manpower than the old one. For example: its interest rate was only 0.12% interest rate; it took only an hour to process, which saved nearly two days time. In addition, the maximum guarantee amount increased to HKD 10 million per member.</p>
+                        <p>The Association's Website "Jewelry-On-Line"was unveiled at the Press Conference in JCK Jewelry Show, Las Vegas. Please visit <a href="http://www.jewelry.org.hk" target="_blank">www.jewelry.org.hk</a> for more details.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>AUG</p></div>
+                        <div class="history-content">
+                        <p>The largest HKJMA Pavilion was organized by the Association at the Indonesia Jewelry and Watch Fair, Jakarta, Indonesia.</p>
+                        <p>HKJMA was appointed to be the sole agent of the Hong Kong and China pavilions in JCK Jewelry Shows.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>The quarterly catalogazine, "Hong Kong Jewelry Express" was first published for the promotion of local jewelry industry and products to world-wide jewelry traders.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>OCT</p></div>
+                        <div class="history-content">
+                        <p>With 4.8 million Government funding, the 'Hong Kong Jewelry Industry Technology Centre' was fueled the third time to develop the 'Master Alloy' technology.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>NOV</p></div>
+                        <div class="history-content">
+                        <p>Two largest HKJMA pavilions were organised at the Middle East Road Shows 'Arab Jewellery' and Jewellery Arabia'.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The 5th Hong Kong Jewelry Manufacturers' Exhibition was held at the Hong Kong Convention and Exhibition Centre, in which over 140 exhibitors participated and more than 8,000 visitors were registered at the show.</p>
+                        <p>The number of members increased to 187 at the year end.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1996">
                 	<h4 class="year">1996</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>JAN</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>HKJMA was authorized to manage the HKJMA Pavilions in JCK Jewelry Shows.</p>
+                        <p>'Industry News' newsletter was changed to become a monthly bulletin.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>FEB</p></div>
+                        <div class="history-content">
+                        <p>The Management Committee for 97JA Las Vegas Spring Show was formed by HKJMA and the Hong Kong Jade & Stone Manufacturers' Association, to discuss the management and promotion of Hong Kong Pavilion.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAR</p></div>
+                        <div class="history-content">
+                        <p>The 1996 Best Service Scheme for Hong Kong Jewelry Industry Award was jointly organised by the six jewelry associations and ICAC.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>APR</p></div>
+                        <div class="history-content">
+                        <p>HKD 4.48 million was granted by the Industrial and Technology Development Council for the development of the new manufacturing technology 'Platinum Electroforming'.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAY</p></div>
+                        <div class="history-content">
+                        <p>A 50% increase in sales was recorded in the 3rd Hong Kong Jewelry Manufacturers' Exhibition which was held at the HKJMA office.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>JUN</p></div>
+                        <div class="history-content">
+                        <p>A Hong Kong delegation was organised to visit the 11th China Jewelry Trade Fair Reception in Guang Zhou, China.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>NOV</p></div>
+                        <div class="history-content">
+                        <p>The Hong Kong Jewelry Manufacturers' Delegation was organised again to visit Beijing and the officials of the United Front Work Department of the CPC Central Committee, the China National Industry and Commerce Federation, the Hong Kong and Macao Affairs Office, the Ministry of Foreign Trade & Imp. & Exp. Corp Economic Cooperation, the Beijing Customs and Excise Department, the Gemmological Association of China and the China National Arts and Crafts Imp. & Exp Corp were met.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The 4th Hong Kong Jewelry Manufacturers' Exhibition was the first held by the Association at the Hong Kong Convention and Exhibition Centre. </p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1995">
                 	<h4 class="year">1995</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>MAR</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>The target of HKJMA permanent office funding was reached.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAY</p></div>
+                        <div class="history-content">
+                        <p>The Industry and Technology Development Council approved the application of HKJMA and HKPC, and granted fund of HKD 4.69 million for the establishment of the 'Hong Kong Jewellery Industry Technology Centre'.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>JUN</p></div>
+                        <div class="history-content">
+                        <p>The permanent HKJMA Office was located at Room 906, Focal Industrial Centre, Block A, 21 Man Lok Street, Hunghom, Kowloon, Hong Kong.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>AUG</p></div>
+                        <div class="history-content">
+                        <p>The first bi-weekly newsletter reporting the activities of the Association and the jewelry industry news was published.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>The 4 associations, HKJMA and Miller Freeman, successfully compromised to combine the two Hong Kong September jewelry shows into one.</p>
+                        <p>The HKJMA permanent office Opening Ceremony was held.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>NOV</p></div>
+                        <div class="history-content">
+                        <p>The first delegation was organized to visit Beijing and was warmly welcome by the State Council Hongkong and Macao Affairs Office, Ministry of Foreign Trade & Economic Cooperation, China National Arts & Clafts Import & Export Corp., China National Pearl Diamond Gem & Jewellery Import & Export Corp and China Council for the Promotion of International Trade, etc.</p>
+                        <p>The first self-organized jewelry fair, Hong Kong Jewellery Manufacturers' Exhibition, was held at the HKJMA office to assist members to explore local jewelry market.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members increased to 180.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1994">
                 	<h4 class="year">1994</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>FEB</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>An Ad-Hoc Fund Raising Committee was formed to plan and execute for the purchase of permanent office.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAR</p></div>
+                        <div class="history-content">
+                        <p>An Extra Ordinary General Meeting was first called to discuss the issue arisen from the two September HK jewelry shows.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>JUN</p></div>
+                        <div class="history-content">
+                        <p>The 6th Annual General Meeting was held. In the meeting, due to the fund raising campaign for permanent office purchase, it was resolved to add the honorary life membership together with the life membership.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>The 3rd September Hong Kong International Jewelry Show was jointly organized by the four associations and HKTDC at the Hong Kong Convention and Exhibition Centre.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members steadily reached 166.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1993">
                 	<h4 class="year">1993</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>JUN</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>The 5th Annual General Meeting was held, and resolved to add the new membership category as Associate Member and to increase the number of General Committee Members to 33.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>September HK International Jewelry Show was jointly organised by the 4 Associations and HKTDC again at the Hong Kong Convention and Exhibition Centre.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members upsurge to 143. </p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1992">
                 	<h4 class="year">1992</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>APR</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>It was the first time that the HKJMA Pavilion was organized at the First Jewellery Arabia in Bahrain, Middle East.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAY</p></div>
+                        <div class="history-content">
+                        <p>It was the first time the HKJMA Pavilion was organized at the First JCK Jewelry Show in Las Vegas.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>The four Associations and HKTDC, jointly organized the September Hong Kong International Jewelry Show at the Kowloon Shangri-La Hotel.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members increased to 125.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1991">
                 	<h4 class="year">1991</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>FEB</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>It was the first time the HKJMA Pavilion was organized at the International Jewellery Tokyo, Japan.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>MAR</p></div>
+                        <div class="history-content">
+                        <p>The Government invited the Association to join the Metals Committee of the Industry and Technology Development Council.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>JUL</p></div>
+                        <div class="history-content">
+                        <p>The four Associations, the Hong Kong Jewelers' & Goldsmiths Association, including the Hong Kong Jade & Stone Manufacturers Association, the Hong Kong Jewelry Manufacturers' Association and the Diamond Importers Association jointly invited the HKTDC to organize the Hong Kong Pavilion for September HK International Jewelry and Watch Fair since 1992.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>It was the first time that HKJMA Pavilion was organized at the Taipei International Jewelry and Watch Exhibition.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members jumped to 106.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1990">
                 	<h4 class="year">1990</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>APR</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>'ATA Carnet Bank Guarantee' has been the first service of its kind ever provided by a local trade association. The maximum guarantee for each member was HKD 4 million.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>SEP</p></div>
+                        <div class="history-content">
+                        <p>It was the first time that the HKJMA Pavilions was organized at the three jewelry exhibitions in Germany, France and Britain.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members mushroomed to 87. </p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1989">
                 	<h4 class="year">1989</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>MAR</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>The first annual general meeting & inauguration ceremony was held. At the same year, the 'HKJMA Year Book and Jewelry Business Directory' was first published.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The number of members increased to 70.</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="year-container">
+                <div class="year-container" id="1988">
                 	<h4 class="year">1988</h4>
                     <div class="history-item">
-                    	<div class="event-type JMA"><p>2007</p></div>
+                    	<div class="event-type JMA"><p>MAR</p></div>
                         <div class="history-content">
-                        <p>To explore the applicability of RFID technology, HKJMA developed a prototype system to improve the operation flows and logistic management of jewelry industry. </p>
+                        <p>The Hong Kong Jewelry Manufacturers' Association (HKJMA) and its Preparatory Executive Committee was founded by 17 leading Hong Kong jewelry manufacturers.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>NOV</p></div>
+                        <div class="history-content">
+                        <p>Hong Kong Jewelry Manufacturer's Association was registered with 60 Jewelry manufacturers as founding members.</p>
+                        </div>
+                    </div>
+                    <div class="history-item">
+                    	<div class="event-type JMA"><p>DEC</p></div>
+                        <div class="history-content">
+                        <p>The First General Meeting was held</p>
                         </div>
                     </div>
                 </div>
