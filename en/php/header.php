@@ -50,7 +50,7 @@
                 <li><a href="javascript:void(0)">Publication</a><img src="../images/arrow_big.png" /><img src="../images/more-arrow-white.png" class="tablet mob"/></li>
                 <li><a href="education.php">Education</a></li>
                 <li><a href="javascript:void(0)">China Affairs</a></li>
-                <li class="member-zone"><a href="javascript:void(0)">MEMBER ZONE</a></li>
+                <li class="member-zone"><a href="member-zone-login.php">MEMBER ZONE</a></li>
             </ul>
             <div class="ext-links mob tablet">
                 <a href="javascript:void(0)">Jewelry News</a>

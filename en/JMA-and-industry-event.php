@@ -117,7 +117,8 @@
                 <div class="event-selector">
                 	<div class="JMA-event">JMA EVENTS</div>
                     <div class="industry-event">INDUSTRY EVENTS</div>
-                    <div class="event-selector-year">
+                    <div class="event-selector-year select-style">
+                    <p></p>
                 	<select>
                     	<option>YEAR</option>
                         <option>1998</option>
