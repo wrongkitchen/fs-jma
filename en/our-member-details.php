@@ -96,6 +96,8 @@
                     <li><img src="../images/product-img-3.png" /></li>
                     <li><img src="../images/product-img-5.png" /></li>
                     <li><img src="../images/product-img-5.png" /></li>
+                    <li><img src="../images/product-img-5.png" /></li>
+                    <li><img src="../images/product-img-5.png" /></li>
                 </ul>
             </div>
             
@@ -110,53 +112,45 @@
             </div>
         </div>
         
-        <div class="company-profile">
+        <div class="company-profile-holder"> 
         	<div class="holder">
-            	<h3>Company Profile</h3>
-            	
-				<p>5 Star Jewelry Ltd is the sub-brand of Gold Source Jewellery Ltd. Empowered by an experienced jewelry design and product development team, 5 Star Jewelry endeavors to bring world-class craftsmanship into the global market.</p>
-                <p>Enhancing different kinds of 18-carat gold and high quality diamonds with scrupulous workmanship, 5 Star Jewelry interprets creative themes. The resulting bold silhouettes and daring color combinations have attracted a following by the young generation.</p>
+                <table>
+                    <tr>
+                        <td class="company-profile">
+                            <h3>Company Profile</h3>
+                    
+                            <p>5 Star Jewelry Ltd is the sub-brand of Gold Source Jewellery Ltd. Empowered by an experienced jewelry design and product development team, 5 Star Jewelry endeavors to bring world-class craftsmanship into the global market.</p>
+                            <p>Enhancing different kinds of 18-carat gold and high quality diamonds with scrupulous workmanship, 5 Star Jewelry interprets creative themes. The resulting bold silhouettes and daring color combinations have attracted a following by the young generation.</p>
+                        </td>
+                        <td class="company-schedule">
+                            <h3>Show Schedule</h3>
 
-            </div>
-        </div>
-        
-        <div class="company-schedule">
-        	<div class="holder">
-            	<h3>Schedule</h3>
-               
-               	<div class="schedule-holder">
-                	<h4>USA</h4>
-                    <ul>
-                    	<li>JCK Las Vegas Show (May)</li>
-                    </ul>
-                </div> 
-                
-                <div class="schedule-holder">
-                	<h4>Europe</h4>
-                    <ul>
-                    	<li>Vicenzaoro Winter, Italy (Jan)</li>
-                        <li>Istanbul Jewelry Show, Turkey (Mar)</li>
-                        <li>Vicenzaoro Spring, Italy (May)</li>
-                        <li>Vicenzaoro Fall, Italy (Sep)</li>
-                        <li>Istanbul Jewelry Show, Turkey (Oct)</li>
-                    </ul>
-                </div>
-                
-                <div class="schedule-holder">
-                	<h4>Hong Kong</h4>
-                    <ul>
-                    	<li>HK Int'l Jewellery Show (Mar)</li>
-                        <li>HK Jewellery & Gem Fair (Jun)</li>
-                        <li>HK Jewellery & Gem Fair (Sep)</li>
-                        <li>HK Int'l Jewelry Manufacturers' Show (Nov)</li>
-                    </ul>
-                </div>
-      
+                            <h4>USA</h4>
+                            <ul>
+                                <li>JCK Las Vegas Show (May)</li>
+                            </ul>
+                            <h4>Europe</h4>
+                            <ul>
+                                <li>Vicenzaoro Winter, Italy (Jan)</li>
+                                <li>Istanbul Jewelry Show, Turkey (Mar)</li>
+                                <li>Vicenzaoro Spring, Italy (May)</li>
+                                <li>Vicenzaoro Fall, Italy (Sep)</li>
+                                <li>Istanbul Jewelry Show, Turkey (Oct)</li>
+                            </ul>
+                            <h4>Hong Kong</h4>
+                            <ul>
+                                <li>HK Int'l Jewellery Show (Mar)</li>
+                                <li>HK Jewellery & Gem Fair (Jun)</li>
+                                <li>HK Jewellery & Gem Fair (Sep)</li>
+                                <li>HK Int'l Jewelry Manufacturers' Show (Nov)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
 
-        
-        
+
     </div>
 
 

@@ -149,9 +149,7 @@
                             <div class="slider">
                             	<div class="slider-view">
                                     <ul class="slider-container">
-                                        <li><img src="../images/activities-img-4.png" /></li><li>
-                                        <img src="../images/activities-img-2.png" /></li><li>
-                                        <img src="../images/activities-img-3.png" /></li>
+                                        <li><img src="../images/activities-img-4.png" /></li>
                                     </ul>
                                 </div>
                                 <ul class="slider-list">
@@ -187,9 +185,7 @@
                             <div class="slider">
                             	<div class="slider-view">
                                     <ul class="slider-container">
-                                        <li><img src="../images/activities-img-4.png" /></li><li>
-                                        <img src="../images/activities-img-2.png" /></li><li>
-                                        <img src="../images/activities-img-3.png" /></li>
+                                        <li><img src="../images/activities-img-4.png" /></li>
                                     </ul>
                                 </div>
                                 <ul class="slider-list">
@@ -252,9 +248,7 @@
                             <div class="slider">
                             	<div class="slider-view">
                                     <ul class="slider-container">
-                                        <li><img src="../images/activities-img-4.png" /></li><li>
-                                        <img src="../images/activities-img-2.png" /></li><li>
-                                        <img src="../images/activities-img-3.png" /></li>
+                                        <li><img src="../images/activities-img-4.png" /></li>
                                     </ul>
                                 </div>
                                 <ul class="slider-list">
@@ -279,12 +273,7 @@
                             <div class="slider">
                             	<div class="slider-view">
                                     <ul class="slider-container">
-                                        <li><img src="../images/activities-img-4.png" /></li><li>
-                                        <img src="../images/activities-img-2.png" /></li><li>
-                                        <img src="../images/activities-img-3.png" /></li><li>
-                                        <img src="../images/activities-img-4.png" /></li><li>
-                                        <img src="../images/activities-img-1.png" /></li><li>
-                                        <img src="../images/activities-img-2.png" /></li>
+                                        <li><img src="../images/activities-img-4.png" /></li>
                                     </ul>
                                 </div>
                                 <ul class="slider-list">

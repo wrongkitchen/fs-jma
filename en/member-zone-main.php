@@ -50,7 +50,7 @@
                         <li>U.S. Buying More Gold Jewelry, but Rest of World Isn’t</li>
                         <li>Jewelry Sales Have Risen for 2+ Years</li>
                     </ul>
-                    <div class="btn"><span>MORE</span><span class="arrow"><img src="../images/more-arrow-white.png"></span></div>
+                    <a href="member-zone-industry-news.php"><div class="btn"><span>MORE</span><span class="arrow"><img src="../images/more-arrow-white.png"></span></div></a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                 <div class="event-container">
                     <div class="event-items">
                         <div class="event-holder">
-                            <div class="event-type-holder"><div class="event-type-JMA"></div></div>
+                            <div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                             <div class="event-img"><img src="../images/event-img-1.png"/></div>   
                             <div class="event-content">
                             The Hong Kong International Jewelry Manufacturers’ Show<br />
@@ -68,14 +68,14 @@
                             </div>          
                         </div>
                         <div class="event-holder">
-                            <div class="event-type-holder"><div class="event-type-IND"></div></div>
+                            <div class="event-type-holder"><div class="event-type GLO oneline"><p>IND</p></div></div>
                             <div class="event-img"><img src="../images/event-img-2.png"/></div>   
                             <div class="event-content">
                             The Hong Kong International Jewelry Manufacturers’ Show<br />
                             <div class="tag highlight">HIGHLIGHT</div><span>02-11-2014</span>
                             </div>          
                         </div><div class="event-holder last">
-                            <div class="event-type-holder"><div class="event-type-JMA"></div></div>
+                            <div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                             <div class="event-img"><img src="../images/event-img-3.png"/></div>   
                             <div class="event-content">
                             The Hong Kong International Jewelry Manufacturers’ Show<br />

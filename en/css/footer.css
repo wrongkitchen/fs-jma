@@ -56,6 +56,12 @@ ul {
   margin: 0;
   padding: 0; }
 
+.sitemap ol {
+  text-align: center; }
+
+.sitemap ul {
+  text-align: left; }
+
 .sitemap ol:after, .sitemap ul:after {
   content: '';
   display: block;
@@ -63,25 +69,36 @@ ul {
 
 .sitemap h4 {
   padding-bottom: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #777;
   font-weight: normal;
-  font-size: 0.9em;
+  font-size: 14px;
   color: #FFF; }
+
+.sitemap h5 {
+  font-size: 14px;
+  margin-bottom: 10px; }
 
 #footer .sitemap h4 a {
   color: #FFF; }
 
 .sitemap ol li {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   width: 21%;
-  margin-right: 3%; }
+  margin-right: 3%;
+  text-align: left; }
+
+.sitemap ol li:last-child {
+  margin-right: 0; }
+
+.sitemap ol li ul {
+  margin-bottom: 30px; }
 
 .sitemap ol li ul li {
-  float: none;
   width: 90%;
-  font-size: 0.8em;
-  margin-bottom: 10px; }
+  font-size: 12px;
+  margin-bottom: 5px; }
 
 .share {
   position: relative;
@@ -118,10 +135,12 @@ ul {
       display: block;
       clear: both; }
     .sponsor ul li {
-      margin-right: 20px;
+      margin-right: 60px;
       display: inline-block; }
       .sponsor ul li img {
-        max-width: 128px; }
+        max-height: 68px; }
+    .sponsor ul li:last-child {
+      margin-right: 0; }
   @media screen and (min-width: 641px) and (max-width: 979px) {
     .sponsor {
       margin-top: 20px; }
@@ -129,8 +148,13 @@ ul {
         text-align: center; }
         .sponsor ul li {
           float: none;
-          margin-right: 5px;
+          margin-right: 40px;
           display: inline-block; } }
+  @media screen and (max-width: 640px) {
+    .sponsor ul li {
+      margin: 0 20px; }
+    .sponsor ul li:last-child {
+      margin: 0 20px; } }
 
 .contact-detail {
   margin-top: 20px;

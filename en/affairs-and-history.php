@@ -28,8 +28,8 @@
         </div>
 
         <div class="history">
+            <div class="btn-scrolltop">TOP</div>
             <div class="holder">
-                
                 <div class="history-selector select-style">
                 	<p></p>
                 	<select>

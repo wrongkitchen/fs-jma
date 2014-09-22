@@ -16,21 +16,49 @@
         	<ol>
             	<li>
                 	<h4>ABOUT HKJMA</h4>
-                    <h4>OUR MEMBERS</h4>
+                    <ul>
+                        <li><a href="aims-and-mission-of-the-association.php">Introduction</a></li>
+                        <li>Our Services & Activites</li>
+                        <li><a href="JMA-and-industry-event.php">JMA & Industry Events</a></li>
+                    </ul>
+                    <h4><a href="our-member.php">OUR MEMBERS</a></h4>
+                </li>
+                <li>
                     <h4>EXHIBITION</h4>
+                    <ul>
+                        <li><a href="http://www.jewelryshows.org/en/" target="_blank">Hong Kong International Jewelry Manufacturer's Show</a></li>
+                        <li><a href="global-trade-fair-listing.php">Major Global Trade Fairs</a></li>
+                    </ul>
                     <h4>PUBLICATION</h4>
+                    <ul>
+                        <li>Hong Kong Jewelry Express</li>
+                        <li><a href="member-zone-industry-news.php">The Industry News</a></li>
+                    </ul>
                 </li>
                 <li>
-                	<h4><a href="#">TRAINING COURSES</a></h4>
-                    <h4><a href="#">CHINA AFFAIRS</a></h4>
-                    <h4><a href="#">MEMBER ZONE</a></h4>
+                    <h4><a href="education.php">EDUCATION</a></h4>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <h4>CHINA AFFAIRS</h4>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <h4><a href="member-zone-login.php">MEMBER ZONE</a></h4>
+                    <ul>
+                        <li><a href="member-zone-main.php">Overview</a></li>
+                        <li>Change Company Data</li>
+                        <li>Notices to members</li>
+                        <li>Industry News</li>
+                    </ul>
                 </li>
                 <li>
-                	<h4><a href="#">JEWELRY NEWS</a></h4>
-                    <h4><a href="#">GOLD RATE & EXCHANGE RATE</a></h4>
-                    <h4><a href="#">JOB MARKET</a></h4>
-                    <h4><a href="#">CONTACT US</a></h4>
-                    <h4><a href="#">FRIENDLY LINKS</a></h4>
+                	<h5><a href="javascript:void(0)">Jewelry News</a></h5>
+                    <h5><a href="goldrate.php">Gold Rate/Exchange Rate</a></h5>
+                    <h5><a href="javascript:void(0)">Job Market</a></h5>
+                    <h5><a href="contact-us.php">Contact Us</a></h5>
+                    <h5><a href="friendly-link.php">Friendly Links</a></h5>
+                    <h5><a href="javascript:void(0)">Subscribe JMA News</a></h5>
                 </li>
             </ol>
         </div>

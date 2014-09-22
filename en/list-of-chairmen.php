@@ -17,7 +17,7 @@
     
     <div class="inner-page">
     	<div class="chairman-list">
-        
+            <div class="btn-scrolltop">TOP</div>
             <div class="holder">
                 <div class="breadcrumb">
                     <span class="pass">Home</span>
@@ -25,7 +25,7 @@
                     <span class="pass">Introduction</span>
                     <span class="now">List of Chairmen</span>
                 </div>
-                <h2>List of Chairmen 1988 - 2015</h2>
+                <h2>List of Chairmen 1988-2015</h2>
                 <div class="year-selector select-style">
                 	<p></p>
                     <select>

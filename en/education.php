@@ -9,15 +9,14 @@
 <? include('php/header.php') ?>
 <!-- end of header -->
 <!-- start of wrapper -->
-<link rel="stylesheet" href="css/content_inner.css" />
 <div id="wrapper">
 
 <div class="hero-banner">
-	<img src="../images/banner-education-en.jpg" class="desktop"/>
-    <img src="../images/banner-education-en-m.jpg" class="mob tablet"/>
+	<img src="../images/education/banner-education-en.jpg" class="desktop"/>
+    <img src="../images/education/banner-education-en-m.jpg" class="mob tablet"/>
 </div>
 
-<div class="inner-page upper">
+<div class="inner-page">
 	<div class="holder">
     	<div class="breadcrumb">
         	<span class="pass">Home</span>
@@ -26,75 +25,160 @@
     	        
     	<h2>EDUCATION</h2>
     </div>
-</div>
 
-<div class="tabControl">
-    <ul>
-        <li class="tab start active"><span class="txt">Available Course</span></li>
-        <li class="tab"><span class="txt">Coming seminar / workshop</span></li>
-        <li class="tab"><span class="txt">Past Event Highlights</span></li>
-        <li class="clearfix"></li>
-    </ul>
-</div>
-        
-        
-<div class="inner-page">
-    <div class="holder">
-        <div class="education">
-            <ul class='homeList'>
-                <li class="listTitle">
-                    <div class="date">Start Date</div>
-                    <div class="title">Title</div>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <div class="date">12 AUG 2014</div>
-                    <div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div>
-                    <div class="icon"></div>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <div class="date">12 AUG 2014</div>
-                    <div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div>
-                    <div class="icon"></div>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <div class="date">12 AUG 2014</div>
-                    <div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div>
-                    <div class="icon"></div>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <div class="date">12 AUG 2014</div>
-                    <div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div>
-                    <div class="icon"></div>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <div class="date">12 AUG 2014</div>
-                    <div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div>
-                    <div class="icon"></div>
-                    <div class="clearfix"></div>
-                </li>
-            </ul>
-            <div class="cefFooter">Continuing Education Fund.</div>
-            <div class="light">
-                Countinuing Education Fund This programme has been included in the list of CEF reimbursable programmes.
-                Application for CEF has to be before commercement of the programme.
+    <div class="education">
+
+        <div class="education-tab">
+            <div class="holder">
+                   <div class="btn-tab selected" id="available-course">Available Course</div><!--
+                --><div class="btn-tab" id="coming-seminar">Seminar & Workshop</div><!--
+                --><div class="btn-tab" id="past-event">Past Event Highlights</div>    
             </div>
-            <div class="downloadTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-            <a href="javascript:void(0)">Download ADOBE READER ></a>
         </div>
+
+        <div class="available-course tab" style="display:block">
+            <div class="holder">
+                <ul class='homeList'>
+                    <li class="listTitle">
+                        <div class="date">Start Date</div><!--
+                        --><div class="title">Title</div>
+                    </li>
+                    <li>
+                        <a href="education-course.php"><div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div></a>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                </ul>
+                <div class="cefFooter">Continuing Education Fund.</div>
+                <p class="light">
+                    Countinuing Education Fund This programme has been included in the list of CEF reimbursable programmes.
+                    Application for CEF has to be before commercement of the programme.
+                </p>
+                <div class="downloadTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <a href="javascript:void(0)">Download ADOBE READER ></a>
+            </div>
+        </div>
+
+        <div class="tab coming-seminar">
+            <div class="holder">
+                <ul class='homeList'>
+                    <li class="listTitle">
+                        <div class="date">Start Date</div><!--
+                        --><div class="title">Title</div>
+                    </li>
+                    <li>
+                        <a href="education-course.php"><div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div></a>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                </ul>
+                <div class="cefFooter">Continuing Education Fund.</div>
+                <p class="light">
+                    Countinuing Education Fund This programme has been included in the list of CEF reimbursable programmes.
+                    Application for CEF has to be before commercement of the programme.
+                </p>
+                <div class="downloadTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <a href="javascript:void(0)">Download ADOBE READER ></a>
+            </div>
+        </div>
+
+        <div class="tab past-event">
+            <div class="holder">
+                <ul class='homeList'>
+                    <li class="listTitle">
+                        <div class="date">Start Date</div><!--
+                        --><div class="title">Title</div>
+                    </li>
+                    <li>
+                        <a href="education-past.php"><div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div></a>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                    <li>
+                        <div class="date">12 AUG 2014</div><!--
+                        --><div class="title">10th Jewelry Design & Drawing Skills(Elementary Level)</div><!--
+                        --><div class="icon"></div>
+                    </li>
+                </ul>
+                <div class="cefFooter">Continuing Education Fund.</div>
+                <p class="light">
+                    Countinuing Education Fund This programme has been included in the list of CEF reimbursable programmes.
+                    Application for CEF has to be before commercement of the programme.
+                </p>
+                <div class="downloadTitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <a href="javascript:void(0)">Download ADOBE READER ></a>
+            </div>
+        </div>
+
+
+        <div class="informationFooter">
+            <div class="holder">
+                <p>For detailed Course information,<br />
+                    please refer to the official website of Jewelry Edcation</p>
+                <div class="btn visitWeb">VISIT WEBSITE</div>
+            </div>
+        </div>
+
     </div>
+
 </div>
 
 
-</div>
-<div class="informationFooter">
-    <p>For detailed Course information,<br />
-        please refer to the official website of Jewelry Edcation</p>
-    <div class="btn visitWeb">VISIT WEBSITE</div>
 </div>
 <!-- end of wrapper -->
 <!-- start of footer -->

@@ -21,7 +21,7 @@
 
 #header .ext-links {
   margin-top: 6px;
-  float: right; }
+  float: left; }
 
 #header .tools {
   margin-top: 4px;
@@ -29,6 +29,9 @@
 
 #header .ext-links a {
   margin-right: 15px; }
+
+.ie_8 #header .ext-links {
+  font-size: 11px; }
 
 #header .vline {
   width: 1px;
@@ -133,7 +136,7 @@
   margin-bottom: -24px; }
 
 #header .navbar-container #menu li.selected a {
-  color: #023452; }
+  color: #0c4da2; }
 
 #header .navbar-container #menu li.selected img {
   display: block; }
@@ -144,7 +147,7 @@
 #header .navbar-container #menu li.member-zone {
   font-family: "futura_bold" !important;
   font-weight: normal;
-  margin-top: 1px; }
+  margin-top: -1px; }
 
 #header .navbar-container #menu:after {
   content: '';
@@ -169,6 +172,18 @@
   padding-top: 30px;
   padding-bottom: 60px; }
 
+#header .menu-lv2#search-container {
+  padding: 0; }
+
+#header .menu-lv2#search-container input[type="text"] {
+  width: 890px; }
+
+#header .menu-lv2#search-container .search-icon {
+  width: 70px;
+  float: right;
+  background: url(../../images/header-search.png) no-repeat -6px -20px;
+  padding-top: 44px; }
+
 #header .menu-lv2.open {
   display: block; }
 
@@ -192,6 +207,15 @@
   width: 29%;
   margin-right: 3%;
   vertical-align: top; }
+
+#header .menu-lv2#exhibitions li {
+  vertical-align: bottom; }
+
+#header .menu-lv2#exhibitions li span {
+  font-size: 12px; }
+
+#header .menu-lv2#exhibitions li span.title {
+  font-size: 16px; }
 
 #header .menu-lv2 li h4 {
   padding-bottom: 5px;
@@ -219,7 +243,8 @@
 
 #header .menu-lv2 li img {
   width: 100%;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-top: 20px; }
 
 #header .menu-lv2 li li {
   display: block;
@@ -270,6 +295,9 @@
   #header .holder {
     position: relative;
     max-width: 980px; }
+
+  .ie_8 #header .ext-links {
+    font-size: 12px; }
 
   #header .member-container {
     margin-top: -1px;
@@ -343,7 +371,6 @@
   .ie_8 #header .navbar-container .search .search-text {
     vertical-align: middle;
     display: inline-block;
-    width: 70%;
     *zoom: 1;
     *display: inline; }
 
@@ -412,6 +439,9 @@
     width: auto;
     min-width: 0;
     max-width: 75px; }
+
+  #header .navbar-container #menu li.member-zone {
+    margin-top: 0px; }
 
   #header .menu-lv2-holder {
     top: 150px;
@@ -491,7 +521,8 @@
     min-width: 50px; }
 
   #header .navbar-container .search .search-text {
-    margin-top: 12px; }
+    margin-top: 12px;
+    padding: 3px 10px; }
 
   .ie_8 #header .member-container .logo img {
     width: 234px; }

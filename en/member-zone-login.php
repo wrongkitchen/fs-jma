@@ -35,7 +35,7 @@
             	<a href="#">Contact Us</a>
                 <a href="#" class="forgot-pw">Forgot Password?</a>
             </div>
-            <a href="member-zone-main.php"><div class="btn login">Sign In</div></a>
+            <a href="member-zone-main.php"><div class="btn login">Login</div></a>
             <hr />
             <span><a href="#" style="color:#000">Not a Member Yet?</a></span>
             <div class="btn download-form">Download Application Form</div>

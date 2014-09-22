@@ -28,15 +28,15 @@
                 <div class="listing-holder">
                     <h2 class="mob tablet">member list</h2>
                     <div class="member-selector">
-                        <div class="search-bar"><img src="../images/mobile/btn-search-m.png" class="mob tablet"/><input type="text"></div>
-                        <div class="selector byproduct selected">By Product <span></span>Category</div><div class="selector byalpha">By Alphabetical <span></span>Order</div><div class="search-icon"><img src="../images/mobile/btn-search-m.png" /></div>
+                        <div class="search-bar"><img src="../images/mobile/btn-search-m.png" class="mob tablet"/><input type="text"></div><!--
+                        --><div class="selector byproduct selected">By Product <span></span>Category</div><div class="selector byalpha">By Alphabetical <span></span>Order</div><div class="search-icon"><img src="../images/mobile/btn-search-m.png" /></div>
                     </div>
                     
                     <div id="byproduct">
                         <div class="category-holder">
                             <h4>Fine Finished Jewelry</h4>
                             <ul>
-                                <li><a href="our-member-details.html">Amber Jewelry</a></li> 	
+                                <li><a href="our-member-details.php">Amber Jewelry</a></li> 	
                                 <li>Antique Jewelry</li> 	
                                 <li>Coin Jewelry</li> 	
                                 <li>Diamond Jewelry</li> 	 	

@@ -12,6 +12,11 @@
 			for(var i=0;i<$(container).find(".slider-container li").length;i++){
 				$(container).find(".slider-list").append('<li><a href="javascript:void(0);"></a></li>');
 			}
+			if($(container).find(".slider-container li").length == 1)
+			{
+				$(container).find(".slider-list").hide();
+			}
+
 			$(container).find(".slider-list li").first().addClass("selected");
 			$(container).find(".slider-list").attr("rel" , temp);
 
@@ -26,7 +31,7 @@
 			clearInterval(timer[temp])
 			$(container).find('.slider-list li').unbind('click',sliderClick);
 			$(container).find('.slider-list li').eq(slideNum[temp]).addClass("selected").siblings().removeClass("selected")
-			$(container).find(".slider-container").stop().animate({"left" : "-"+slideNum[temp]*100+"%"},1000,function(){
+			$(container).find(".slider-container").stop().animate({"left" : "-"+slideNum[temp]*$(container).find('.slider-container li').width()},1000,function(){
 				slideNum[temp] = slideNum[temp] + 1;
 				
 				if(slideNum[temp] > slideTotal[temp] - 1)

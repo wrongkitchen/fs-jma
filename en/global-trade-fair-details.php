@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <? include('php/head-meta.php') ?>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=FALSE"></script>
 <script type="text/javascript">
   function initialize() {
     var mapOptions = {
@@ -51,7 +52,7 @@
         	<h2>Hong Kong International Jewelry Manufacturers' Show</h2>
             <div class="fairs-details-holder">
                 <div class="fairs-detail">
-                                        <table>
+                    <table>
                         <tr>
                             <th>Date:</th>
                             <td>20th March 2014</td>
@@ -84,7 +85,7 @@
                     <div class="fairs-img">
                         <img src="../images/our-members/member-img-dummy.png" />
                     </div>
-                    <h3>Attachments</h3>
+                    <h3 class="attachment-header">Attachments</h3>
                     <div class="attachment-list">
                         <div><p>something</p><div class="btn-download">Download</div></div>
                         <div><p>something</p><div class="btn-download">Download</div></div>

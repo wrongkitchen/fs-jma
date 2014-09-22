@@ -24,12 +24,12 @@
                 <span class="now">Exhibition Sub-Committee</span>
             </div>
         	
-            <h2>Exhibition Sub-Committee(2013 - 2015)</h2>
+            <h2>Exhibition Sub-Committee 2013-2015</h2>
 
         </div>
         
         
-        <div class="sub-committee">
+        <div class="sub-committee director">
         	<div class="holder">
             	<div class="director-holder">
                 	<img src="../images/about-us/exhibition-sub-committee/director-img.png" />
@@ -38,81 +38,7 @@
                     	<h4>Mr. William Li</h4>
                         <span>Chase Jewellery Manufactory Ltd.</span>
                     </div>
-                </div>
-                
-                <div class="committee-member">
-                  <table>
-                    <tr class="odd">
-                      <th class="title">Director</th>
-                      <td>Mr. William Li</td>
-                      <td>Chase Jewellery Manufactory Ltd.</td>
-                    </tr>
-                    <tr class="even">
-                      <th class="title">Deputy-Director</th>
-                      <td>Mr. Paul Li</td>
-                      <td>Paul Li Jewellery Ltd.</td>
-                    </tr>
-                    <tr class="odd">
-                      <th class="title last">Committee Members</th>
-                      <td>Mr. Kevin Ng</td>
-                      <td>3D-Gold Jewellery (Hk) Ltd.</td>
-                    </tr>
-                    <tr class="even">
-                      <th></th>
-                      <td>Mr. Terence Shih</td>
-                      <td>Dai Sun Jewellery Co Ltd.</td>
-                    </tr>
-                    <tr class="odd">
-                      <th></th>
-                      <td>Ms. Diana Wong</td>
-                      <td>De Vere Jewellery (H.K.) Ltd</td>
-                    </tr>
-                    <tr class="even">
-                      <th></th>
-                      <td>Mr. Philip Lam</td>
-                      <td>East Arts Jewelry Mfy. Ltd</td>
-                    </tr>
-                    <tr class="odd">
-                      <th></th>
-                      <td>Mr. Ken Lo</td>
-                      <td>Eternity Mfg. Ltd.</td>
-                    </tr>
-                    <tr class="even">
-                      <th></th>
-                      <td>Ms. Karen Yip</td>
-                      <td>Front Top Jewelry Mfr. Ltd.</td>
-                    </tr>
-                    <tr class="odd">
-                      <th></th>
-                      <td>Mr. Kelvin Ho</td>
-                      <td>Good Way Jewellery Manufactory Ltd.</td>
-                    </tr>
-                    <tr class="even">
-                      <th></th>
-                      <td>Mr. Henry Lam</td>
-                      <td>Henry Jewellery Manufacturer Co. Ltd.</td>
-                    <tr class="odd">
-                      <th></th>
-                      <td>Ms Lily Leung</td>
-                      <td>Lily &amp; Co International Jewellery Ltd</td>
-                    </tr>
-                    <tr class="even">
-                      <th></th>
-                      <td>Mr. Andrew Law</td>
-                      <td>Peter Lam Jewellery Ltd.</td>
-                    </tr>
-                    <tr class="odd">
-                      <th></th>
-                      <td>Ms. Gi Gi Wong</td>
-                      <td>Profit Gem Jewellery (Group) Ltd.</td>
-                    </tr>
-                    <tr class="even">
-                      <th></th>
-                      <td>Ms. Cecilia Chan</td>
-                      <td>Sunny Creations Ltd.</td>
-                    </tr>
-                  </table>
-                </div>
+              </div>
             </div>
         </div>
         
@@ -247,6 +173,91 @@
                 <div class="img-holder">
                     <img src="../images/about-us/exhibition-sub-committee/exhibition-img-5.png" /><img src="../images/about-us/exhibition-sub-committee/exhibition-img-6.png" /><img src="../images/about-us/exhibition-sub-committee/exhibition-img-7.png" class="last"/>
                 </div>
+            </div>
+        </div>
+
+        <div class="sub-committee">
+          <div class="holder">
+              <div class="committee-member">
+                <h3>Exhibition Sub-Committee 2013-2015</h3>
+                <img src="../images/about-us/exhibition-sub-committee/exhibition-sub-committee-photo.jpg" class="committee-photo">
+                <table>
+                  <tr class="odd">
+                    <th class="title">Director</th>
+                    <td class="name"><div>1</div>Mr. William Li</td>
+                    <td>Chase Jewellery Manufactory Ltd.</td>
+                  </tr>
+                  <tr class="even">
+                    <th class="title">Deputy-Director</th>
+                    <td><div>2</div>Mr. Paul Li</td>
+                    <td>Paul Li Jewellery Ltd.</td>
+                  </tr>
+                  <tr class="odd">
+                    <th class="title last">Committee Members</th>
+                    <td><div>3</div>Mr. Kevin Ng</td>
+                    <td>3D-Gold Jewellery (Hk) Ltd.</td>
+                  </tr>
+                  <tr class="even">
+                    <th></th>
+                    <td><div>4</div>Mr. Terence Shih</td>
+                    <td>Dai Sun Jewellery Co Ltd.</td>
+                  </tr>
+                  <tr class="odd">
+                    <th></th>
+                    <td><div>5</div>Ms. Diana Wong</td>
+                    <td>De Vere Jewellery (H.K.) Ltd</td>
+                  </tr>
+                  <tr class="even">
+                    <th></th>
+                    <td><div>6</div>Mr. Philip Lam</td>
+                    <td>East Arts Jewelry Mfy. Ltd</td>
+                  </tr>
+                  <tr class="odd">
+                    <th></th>
+                    <td><div>7</div>Mr. Ken Lo</td>
+                    <td>Eternity Mfg. Ltd.</td>
+                  </tr>
+                  <tr class="even">
+                    <th></th>
+                    <td><div>8</div>Ms. Karen Yip</td>
+                    <td>Front Top Jewelry Mfr. Ltd.</td>
+                  </tr>
+                  <tr class="odd">
+                    <th></th>
+                    <td><div>9</div>Mr. Kelvin Ho</td>
+                    <td>Good Way Jewellery Manufactory Ltd.</td>
+                  </tr>
+                  <tr class="even">
+                    <th></th>
+                    <td><div>10</div>Mr. Henry Lam</td>
+                    <td>Henry Jewellery Manufacturer Co. Ltd.</td>
+                  <tr class="odd">
+                    <th></th>
+                    <td><div>11</div>Mr Karl Shin</td>
+                    <td>K K Jewellery Co Ltd</td>
+                  </tr>
+                  <tr class="even">
+                    <th></th>
+                    <td><div>12</div>Ms Lily Leung</td>
+                    <td>Lily &amp; Co International Jewellery Ltd</td>
+                  </tr>
+                  <tr class="odd">
+                    <th></th>
+                    <td><div>13</div>Mr. Andrew Law</td>
+                    <td>Peter Lam Jewellery Ltd.</td>
+                  </tr>
+                  <tr class="even">
+                    <th></th>
+                    <td><div>14</div>Ms. Gi Gi Wong</td>
+                    <td>Profit Gem Jewellery (Group) Ltd.</td>
+                  </tr>
+                  <tr class="odd">
+                    <th></th>
+                    <td><div>15</div>Ms. Cecilia Chan</td>
+                    <td>Sunny Creations Ltd.</td>
+                  </tr>
+                </table>
+              </div>
             </div>
         </div>
         

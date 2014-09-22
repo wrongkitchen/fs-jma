@@ -92,30 +92,90 @@
     </div>
     
     <div class="goldrate">
-    	<div class="holder">
+    	<div class="holder goldrate-toggle">
         	<h2 class="goldrate-title">
             	Gold Rate / Exchange Rate<br />
             	<span>Click to enlarge the gold rate / exchange rate</span>
             </h2>
             <div class="arrow"></div>
         </div>
+        <div class="holder ">
+            <div class="goldrate-overflow scrollable-x">
+                <table class="goldrate-content">
+                    <tr class="title">
+                        <td></td>
+                        <td></td>
+                        <td>SPOT</td>
+                        <td>HIGH</td>
+                        <td>LOW</td>
+                        <td>OPEN</td>
+                        <td>CLOSE</td>
+                    </tr>
+                    <tr>
+                        <th>HKG/港元</th>
+                        <td class="up"><span class="rate-up"></span></td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                    </tr>
+                    <tr>
+                        <th>HKG/港元</th>
+                        <td class="up"><span class="rate-down"></span></td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                    </tr>
+                </table>
+                <table class="goldrate-content exchange">
+                    <tr class="title">
+                        <td></td>
+                        <td></td>
+                        <td>SPOT</td>
+                        <td>HIGH</td>
+                        <td>LOW</td>
+                        <td>OPEN</td>
+                        <td>CLOSE</td>
+                    </tr>
+                    <tr>
+                        <th>HKG/港元</th>
+                        <td class="up"></td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                    </tr>
+                    <tr>
+                        <th>HKG/港元</th>
+                        <td class="up"><span class="rate-up"></span></td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                        <td>12285/90</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
-    
+
     <div class="trade-fairs">
     	<div class="holder">
         	<h2 class="trade-fairs-title">Major Global Trade Fairs</h2>
             
             <div class="calendar">
             </div>
+
             
             <div class="vline"></div>
             
-            <div class="trade-fairs-event-holder">
-            
-            	<div class="trade-fairs-event-item">
-                	<div class="event-type">
-                    	<div class="event-type-JMA"></div>
-                </div>
+            <div class="trade-fairs-event-holder scrollable">
+            	<div class="trade-fairs-event-item" id="D23092014">
+                    <div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                     <div class="event-details">
                     	<p>Jewelry Design competition</p>
                         <span>Hong Kong Design Centre <br />
@@ -123,10 +183,8 @@
                     </div>
                 </div>
                 
-                <div class="trade-fairs-event-item">
-                	<div class="event-type">
-                    	<div class="event-type-JMA"></div>
-                </div>
+                <div class="trade-fairs-event-item" id="D25092014">
+                	<div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                     <div class="event-details">
                     	<p>Jewelry Design competition</p>
                         <span>Hong Kong Design Centre <br />
@@ -134,12 +192,26 @@
                     </div>
                 </div>
                 
-                <div class="trade-fairs-event-item">
-                	<div class="event-type">
-                    	<div class="event-type-GLO"></div>
-                </div>
+                <div class="trade-fairs-event-item" id="D26092014">
+                	<div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                     <div class="event-details">
                     	<p>Jewelry Design competition</p>
+                        <span>Hong Kong Design Centre <br />
+                        05.03.2014  |  8am - 6pm</span>
+                    </div>
+                </div>
+                <div class="trade-fairs-event-item" id="D27092014">
+                    <div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
+                    <div class="event-details">
+                        <p>Jewelry Design competition</p>
+                        <span>Hong Kong Design Centre <br />
+                        05.03.2014  |  8am - 6pm</span>
+                    </div>
+                </div>
+                <div class="trade-fairs-event-item" id="D10102014">
+                    <div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
+                    <div class="event-details">
+                        <p>Jewelry Design competition</p>
                         <span>Hong Kong Design Centre <br />
                         05.03.2014  |  8am - 6pm</span>
                     </div>
@@ -162,21 +234,21 @@
             <div class="event-container">
             	<div class="event-items">
                     <div class="event-holder">
-                    	<div class="event-type"><div class="event-type-JMA"></div></div>
+                    	<div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                         <div class="event-img"><img src="../images/event-img-1.png"/></div>   
                         <div class="event-content">
                         The Hong Kong International Jewelry Manufacturers’ Show<br />
                         <div class="tag highlight">HIGHLIGHT</div><span>02-11-2014</span>
                         </div>       	
                     </div><div class="event-holder">
-                    	<div class="event-type"><div class="event-type-IND"></div></div>
+                    	<div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                         <div class="event-img"><img src="../images/event-img-2.png"/></div>   
                         <div class="event-content">
                         The Hong Kong International Jewelry Manufacturers’ Show<br />
                         <div class="tag highlight">HIGHLIGHT</div><span>02-11-2014</span>
                         </div>       	
                     </div><div class="event-holder last">
-                    	<div class="event-type"><div class="event-type-JMA"></div></div>
+                    	<div class="event-type-holder"><div class="event-type JMA oneline"><p>JMA</p></div></div>
                         <div class="event-img"><img src="../images/event-img-3.png"/></div>   
                         <div class="event-content">
                         The Hong Kong International Jewelry Manufacturers’ Show<br />
@@ -235,11 +307,7 @@
                     --><li><img src="../images/product-img-4.png" /><div class="product-details">i m details</div></li><!--
                     --><li><img src="../images/product-img-5.png" /><div class="product-details">i m details</div></li><!--
                     --><li><img src="../images/product-img-1.png" /><div class="product-details">i m details</div></li><!--
-                    --><li><img src="../images/product-img-2.png" /><div class="product-details">i m details</div></li><!--
-                    --><li><img src="../images/product-img-3.png" /><div class="product-details">i m details</div></li><!--
-                    --><li><img src="../images/product-img-4.png" /><div class="product-details">i m details</div></li><!--
-                    --><li><img src="../images/product-img-5.png" /><div class="product-details">i m details</div></li><!--
-                    -->
+                    --><li><img src="../images/product-img-2.png" /><div class="product-details">i m details</div></li>
                 </ul>
             </div>
             

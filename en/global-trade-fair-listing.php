@@ -30,12 +30,15 @@
                 <div class="filter">
                 	All <span class="separate">|</span> <a href="#" class="HKpavilion">JMA HK Pavillion Around the World</a>
                     <div class="filter-year">
-                        <select>
-                        	<option>Year</option>
-                            <option>Year</option>
-                            <option>Year</option>
-                            <option>Year</option>
-                        </select>
+                        <div class="select-style">
+                            <p></p>
+                            <select>
+                            	<option>Please Select Year</option>
+                                <option>Year</option>
+                                <option>Year</option>
+                                <option>Year</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 <!--                <div class="btn-right">2013</div>-->
@@ -108,7 +111,7 @@
                     	<div class="date"><p>35</p><span>mon</span></div>
                         <div class="details"><p>Inhorgenta Munich 2014</p><span>Munich, Germany</span></div>
                     </div>
-                    <a href="global-trade-fair-details.html"><div class="HKJMAorgan">
+                    <a href="global-trade-fair-details.php"><div class="HKJMAorgan">
                     	<div class="date"><p>35</p><span>mon</span></div>
                         <div class="details"><p>Inhorgenta Munich 2014</p><span>Munich, Germany</span></div>
                     </div></a>
